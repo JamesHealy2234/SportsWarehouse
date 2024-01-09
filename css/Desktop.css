@@ -1,0 +1,701 @@
+#Gallery-images div{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    /* color: white; */
+    font-size: 1.6em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.OlderPrice{
+    text-decoration: line-through;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+    display: inline;
+}
+
+/* Img for buying item*/
+.ShoppimgImg{
+    max-width: 160px;
+    max-height: 120px;
+}
+
+
+
+.Success-User-Message{
+    color: green;
+}
+
+/*styling for the update item table css */
+
+.TableLayout2{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+
+    /*CSS to change the space between top and bottom of the table */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.TableLayout2 a{
+    color: black;
+}
+
+.TableLayout2 a:hover{
+    color: purple;
+}
+.TableLayout2 td, .TableLayout th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+.TableLayout2 tr:nth-child(even){background-color: #f2f2f2;}
+
+.TableLayout2 tr:hover {background-color: #ddd;}
+
+.TableLayout2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/*Styling ends*/
+
+
+
+.TableLayout{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+
+    /*CSS to change the space between top and bottom of the table */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.TableLayout a{
+    color: black;
+}
+
+.TableLayout a:hover{
+    color: lawngreen;
+}
+.TableLayout td, .TableLayout th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+
+
+.TableLayout tr:nth-child(even){background-color: #f2f2f2;}
+
+.TableLayout tr:hover {background-color: #ddd;}
+
+.TableLayout th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.Desktop-Login-Form{
+    margin-bottom: 20px;
+}
+
+
+.Desktop-Checkout-Form1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Desktop-Checkout-Form1 legend{
+    font-weight: bold;
+}
+
+.Desktop-Checkout-Form2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.Desktop-Checkout-Form2 legend{
+    font-weight: bold;
+}
+
+#successSection {
+    margin-left: 15px;
+    color: green;
+}
+
+.errorP{
+    color: red;
+}
+
+.Admin-Mob-L a{
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+
+.ChangePWForm {
+    margin-bottom: 15px;
+}
+
+#successP{
+    padding-left: 15px;
+}
+
+.categoryForm{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#CategoryName{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    text-align: left;
+    resize: none;
+}
+
+
+.formfield *{
+    vertical-align: middle;
+}
+/* #AdminP{
+
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    text-align: center;
+} */
+
+
+
+
+#Lock-icon i{
+    font-size: 1.7em;
+    padding: 5px;
+    margin: 5px;
+}
+
+#Menu-list2 i{
+    font-size: 1.7em;
+    padding: 6px;
+    margin: 5px;
+}
+
+#menu-wrapper{
+    margin: 0px;
+}
+
+#admin-Div {
+    /* float: right;
+    margin-right: -40px; */
+}
+
+/* Styling for background colour of admin page*/
+#admin-imgD {
+    background-color: antiquewhite;
+}
+
+
+#admin-imgD img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.none1{
+    padding: 15px;
+    color: red;
+}
+
+.shoppingcart td{
+  padding: 15px;
+}
+
+.total {
+  padding: 15px;
+}
+
+#CheckoutL{
+  padding-bottom: 15px;
+}
+
+#CheckoutL a {
+  color: black;
+
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+#CheckoutL  :hover{
+   color: #00ACED;
+}
+
+#ContinueShopL a{
+  color: black;
+
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px 10px;
+  text-align: center
+}
+
+#ContinueShopL :hover{
+   color: #00ACED;
+}
+
+
+
+
+
+#DifferentCon {
+    display: contents;
+    margin-top: -30px;
+    display: block;
+    padding-left: 25rem;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+#DifferentCon li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#DifferentCon li a {
+    color: black;
+    text-decoration: none;
+}
+
+.clearfix{
+    margin-bottom: 15px;
+}
+
+.clearfix ::after, cf::before{
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+
+
+#BrandIcons{
+    float: right;
+    border-radius: 80px 0 0 80px;
+}
+
+.logos img{
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* #menu-container {
+    height: 5rem;
+    margin:0 auto 2.4rem auto;
+} */
+
+.img2{
+    text-align: center;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+#menu {
+    display: none;
+}
+#menu-container{
+    background-color: #00ACED;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
+
+.FormElement {
+    float: right;
+    margin-top: 2%;
+}
+
+
+.DivSection {
+    display: none;
+}
+
+
+.DivDeskSection{
+    background-color: #002936;
+    border-radius: 30px 0 0 30px;
+    margin-top: 20px;
+}
+
+.DivDeskSection ul {
+    display: inline-flex;
+    font-weight: lighter;
+
+}
+
+.DivDeskSection li{
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+
+.DivDeskSection a {
+    padding: 10px;
+}
+.DivDeskSection a:hover {
+    background-color: #00aced;
+    border-radius: 30px 0 0 30px;
+    color: white;
+}
+
+#LogoImg {
+    text-align: left;
+}
+
+
+.MainHLogo
+{
+    width: 625px;
+    height: 84px;
+}
+
+#Fv {
+    float: right;
+}
+
+#Fv a {
+    margin-left: 20px;
+}
+
+
+#sectionBrands{
+    float: left;
+}
+
+
+#normal{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+#normal li {
+    margin-right: 20px;
+
+}
+
+
+#menu-toggle{
+    display: none;
+}
+
+#Lock-icon{
+    display: inline-block;
+}
+
+
+#Gallery-images {
+    margin-left: 15px;
+    padding-bottom: 25px
+}
+
+#Gallery-images div{
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #e4e3e3;
+    margin: 0 2px 0px 2px;
+    width: 190px;
+}
+#Gallery-images div:hover {
+    -webkit-box-shadow: 1px 1px 5px 0 #ff690c;
+    box-shadow: 1px 1px 5px 0 #ff690c;
+}
+
+#Single-Item {
+    text-align: center;
+}
+
+.ProductHead {
+    text-align: center;
+}
+
+
+.footerWrap{
+    display: flex;
+    justify-content: center;
+}
+
+.ProductsCategoriesDiv{
+    background-color: #ff690c;
+}
+
+.ProductsCategories{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+
+.P0 {
+    padding-top: 0px;
+}
+
+.ProductText{
+    padding: 20px;
+}
+
+.articleSportsW{
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.NavFooter{
+    margin: 10px;
+}
+
+.NavFooter ul {
+    padding: 0px;
+}
+
+.ProductFooter ul{
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+}
+
+.ProductFooter li {
+    padding: 2.5px;
+    margin: 2px;
+}
+
+.ProductFooter img{
+    width: 13px;
+    height: 9px;
+}
+
+.ProdItem img{
+    margin-right: 10px;
+}
+
+.br-remove{
+    display: none;
+}
+
+.DivSecHide{
+    display: block;
+}
+
+
+.ProductFooter{
+    display: block;
+}
+
+.ProductsCategories{
+    display: block;
+}
+
+
+/* SLIDE SHOW CSS STARTS HERE */
+
+
+#slideshow{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    max-width: 1000px;
+}
+
+#slideshow.loading ul{
+        display: none;
+    }
+
+#slideshow .bx-wrapper{
+    border: none;
+}
+
+
+#slideshow .bx-pager-link{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00aced80;
+    border: solid 1px white;
+
+}
+
+#slideshow .bx-pager-link.active {
+    background-color: #006CAD;
+}
+
+#slideshow .bx-pager{
+    bottom: 20px;
+}
+
+
+/* #slideshow a {
+
+} */
+
+
+/*
+ * OTHER STYLING
+ */
+
+
+#slideshow{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+
+#slideshow ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#slideshow li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#slideshow .bx-controls-direction {
+
+}
+
+#slideshow .overlay {
+    width: 300px;
+    height: 100%;
+    background-color: #00aced;
+    position: absolute;
+    top: 0;
+    left: 700px;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid 3px white;
+    border-radius: 160px 0px 0px 160px;
+}
+
+#slideshow .SlideContent {
+    width: 197px;
+}
+
+
+#slideshow .slideShowText {
+    color: white;
+    font-size: 18px;
+    /* outline: solid 1px red; */
+    margin-right: -120px;
+    margin-left: 95px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#slideshow .SlideShowButton {
+    width: 150px;
+    height: 36px;
+    background-color: #006989;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#slide1 .SlideContent
+{
+    width: 155px;
+}
+
+#slide1 .slideShowText
+{
+    margin-right: -104px;
+    margin-left: 76px;
+}
+
+#slide1 .SlideShowButton
+{
+  margin-left: 95px;
+}
+
+
+#slide2 .SlideContent
+{
+    width: 155px;
+}
+
+#slide2 .slideShowText
+{
+    margin-right: -104px;
+    margin-left: 76px;
+}
+
+#slide2 .SlideShowButton
+{
+  margin-left: 95px;
+}
+
+#slide3 .SlideContent
+{
+  width: 197px;
+}
+
+#slide3 .slideShowText
+{
+  margin-right: -55px;
+  margin-left: 72px;
+}
+
+#slide3 .SlideShowButton
+{
+  margin-left: 95px;
+}
+
+#slideshow .product {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+}

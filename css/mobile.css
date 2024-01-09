@@ -1,0 +1,674 @@
+#DifferentCon {
+    display: none;
+}
+
+
+#Lock-icon i{
+    font-size: 1.7em;
+    padding: 5px;
+    margin: 5px;
+}
+
+#Lock-icon{
+    display: none;
+}
+
+#Menu-list2 i{
+    font-size: 1.7em;
+    padding: 6px;
+    margin: 5px;
+}
+
+#successP{
+    padding-left: 15px;
+}
+
+#menu-toggle i{
+    font-size: 1.7em;
+    padding: 6px;
+    margin: 5px;
+}
+
+#menu-wrapper{
+    float: right;
+    margin-right: 25px;
+}
+
+#Lock-icon2 i{
+    font-size: 1.0em;
+    padding: 6px;
+    margin: 2px;
+}
+
+#admin-Div {
+    float: left;
+    margin-left: 15px;
+}
+
+/* Styling for background colour of admin page*/
+#admin-imgD {
+    background-color: antiquewhite;
+}
+
+#admin-imgD img{
+    width: 100%;
+    height: 100%;
+}
+
+#adminP {
+    margin-left: 15px;
+}
+
+#successSection {
+    margin-left: 15px;
+    color: green;
+}
+
+#CategoryName{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    text-align: left;
+    resize: none;
+}
+
+.Success-User-Message{
+    color: green;
+}
+
+.ShoppimgImg{
+    max-width: 160px;
+    max-height: 120px;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+}
+
+
+/*styling forthe update item  table css */
+
+.TableLayout2{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+
+    /*CSS to change the space between top and bottom of the table */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.TableLayout2 a{
+    color: black;
+}
+
+.TableLayout2 a:hover{
+    color: purple;
+}
+.TableLayout2 td, .TableLayout th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+.TableLayout2 tr:nth-child(even){background-color: #f2f2f2;}
+
+.TableLayout2 tr:hover {background-color: #ddd;}
+
+.TableLayout2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*Styling ends*/
+
+
+/* CSS TO change the styling for the update category form */
+
+.TableLayout{
+    /* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+
+    /*CSS to change the space between top and bottom of the table */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.TableLayout a{
+    color: black;
+}
+
+.TableLayout a:hover{
+    color: lawngreen;
+}
+.TableLayout td, .TableLayout th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+.TableLayout tr:nth-child(even){background-color: #f2f2f2;}
+
+.TableLayout tr:hover {background-color: #ddd;}
+
+.TableLayout th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* BREAK ENDS */
+
+.formfield *{
+    vertical-align: middle;
+}
+
+.errorP{
+    color: red;
+}
+
+
+.Admin-Mob-L a{
+ color: blue;
+}
+
+.Admin-Mob-L a:hover {
+ color: lawngreen;
+}
+
+
+
+.MainHLogo {
+    vertical-align: middle;
+}
+
+.logos img{
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+.shoppingcart td{
+  padding: 15px;
+}
+
+.none1{
+    padding: 15px;
+    color: red;
+}
+
+.total {
+  padding: 15px;
+}
+
+#CheckoutL{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+#CheckoutL a {
+  color: black;
+
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+#CheckoutL  :hover{
+   color: #00ACED;
+}
+
+#ContinueShopL a{
+  color: black;
+
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px 10px;
+  text-align: center
+}
+
+#ContinueShopL :hover{
+   color: #00ACED;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#Gallery-images div{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    /* color: white; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8em;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.clearfix::after,
+.cf::after{
+
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
+#slideshow{
+    display: none;
+}
+
+
+#sectionBrands2{
+    display: contents;
+}
+
+.ProductFooter{
+    display: none;
+}
+
+.ProductsCategories{
+    display: none;
+}
+
+.Products{
+    width: 195px;
+}
+
+#Single-Item {
+    text-align: center;
+}
+
+.ProductHead {
+    text-align: center;
+}
+
+.DivSecHide{
+    display: none;
+}
+
+.no-js
+{
+
+}
+
+
+.img{
+    margin: 10px;
+}
+
+.circle{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+#sectionBrands2{
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+
+#Span1-1{
+    color: #7d7c7c;
+}
+
+#Span2-1{
+    color: #00acee;
+}
+
+
+
+#menu {
+    padding: 10px;
+}
+
+#menu-toggle{
+    margin-left: 10px;
+}
+
+
+.img2{
+    text-align: center;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+#LogoImg{
+    text-align: center;
+    margin: auto;
+
+}
+
+.Item-1{
+    color: black;
+}
+
+.NavImage{
+    width: 20px;
+    float: right;
+}
+
+
+.DivSection{
+    background-color: #012935;
+}
+
+.Srcbutton{
+    vertical-align: middle;
+    background-color: #002935;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+#NavSection{
+    background-color: rgb(0,41,54);
+    margin-top: 10px;
+    min-width: 320px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#NavSection ul{
+    list-style: none;
+    color: white;
+    list-style: none;
+    color: white;
+    margin: 10px;
+}
+
+input {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    text-align: left;
+}
+
+.navitem:hover{
+    background-color: #00ACED;
+}
+
+.navitem{
+    height: 40px;
+    width: 145px;
+    border: solid 1px rgb(0,171,237);
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 5px 5px 5px 0px;
+    display: inline-block;
+
+    background-image: url("../images/RightArrow-Colorblue.png");
+    background-repeat: no-repeat;
+    background-position: right 2px top 65%;
+}
+
+
+/* Functional mobile menu styling*/
+
+#menu {
+
+    /* display: none; */
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    /* position: relative;
+    left: -100%; */
+    transition: height 0.5s, opacity 0.5s;
+}
+
+#menu.show{
+    height: 200px;
+    opacity: 1;
+    transition: height 2s, opacity 2s;
+    margin: 10px;
+}
+
+.section1{
+  background-color: #ff690b;
+  padding: 0.1em 0;
+  width: auto;
+  color: white;
+  margin: 20px 0;
+  border: 1px solid white;
+  border-radius: 50px 0 0 50px;
+}
+
+.section1 h4 {
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+#menu-toggle.hide{
+    display: none;
+}
+
+#wrapper{
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    line-height: 1.1em;
+}
+
+.price{
+
+    font-weight: normal;
+    color: #ff690b;
+    font-family: Arial;
+    font-size: 22.93px;
+
+}
+
+.was-price{
+    font-weight: normal;
+    color: #9d9d9d;
+    font-family: arial;
+    font-size: 14.2px;
+
+}
+
+.Txt{
+    color: #2f7e99;
+}
+
+
+#normal{
+    display: none;
+}
+
+#Amount-incart{
+    background: rgba(0,0,0,0.3);
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: springgreen;
+}
+
+
+#menu-container{
+    background-color: #00ACED;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#Gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#Gallery-images div{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#menu-toggle{
+
+    color: white;
+    /* box-shadow: 2px 2px 7px rgba(0,0,0,0.8); */
+}
+
+
+#menu ul{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu li {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid white;
+}
+
+#menu a {
+    display: block;
+    margin-bottom: 0.2em;
+    padding: 0.3em 0.6em;
+    background: rgba(0,0,0,0.0);
+    color: white;
+}
+
+#sectionBrands{
+    color: black;
+    text-align: left;
+    padding: 10px;
+    float: none;
+    display: inline-block;
+}
+#Span1{
+    color: #7d7c7c;
+}
+
+#Span2{
+    color: #00acee;
+}
+
+#BrandIcons{
+    background-color: #012935;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+}
+
+#BrandIcons div{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+#Footer{
+    background-color: #00acee;
+    color: white;
+}
+
+.Footer-Copyright{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.social-media-icons{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.social-media-icons div{
+    margin: 20px;
+}
+
+.social-media-icons img{
+    border: 1px solid white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+
+.social-media-icons i{
+    font-size: 35px;
+    padding: 30px;
+    border: 1.5px solid;
+    border-radius: 100%;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.articleSportsW{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.P0{
+    padding-top: 15px;
+}
+
+.NavFooter ul{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.NavFooter li{
+    padding: 2.5px;
+    margin: 2px;
+}
+.NavFooter img{
+    width: 13px;
+    height: 9px;
+}
+
+.itemVn img{
+    margin-right: 10px;
+}
